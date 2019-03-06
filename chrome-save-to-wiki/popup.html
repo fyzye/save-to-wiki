@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <script src='popup.js'></script>
+  <style>
+    body{
+      min-width: 300px;
+      font-size: 14px;
+    }
+    label{
+      width:50px;
+      display: inline-block;
+      text-align: right;
+      vertical-align: top
+    }
+
+    input{
+      width:250px;
+      border:0;
+    }
+    textarea{
+      width:250px;
+      border:1px solid rgb(248, 248, 248);
+    }
+    select{
+      width:250px;
+      height:36px;
+      line-height: 36px;
+      border-radius: 0;
+    }
+    button{
+      width:250px;
+      height:36px;
+      line-height: 36px;
+      border-radius: 0;
+    }
+    .content-area{
+      width:100%;
+      padding:24px 24px 0 24px;
+    }
+    .line-item{
+      width:250px;
+      padding: 8px;
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="content-area">
+      <input type=text id=title class="line-item" placeholder=标题></input>
+
+      <select class="line-item" id=type>
+        <option value="新闻资讯">新闻资讯</option>
+        <option value="开源项目">开源项目</option>
+        <option value="经验总结">经验总结</option>
+      </select>
+
+      <textarea class="line-item" rows="3" cols="30" id=message placeholder=说点啥></textarea>
+
+      <button id=send>收藏到筋斗云</button>
+  </div>
+  
+  <br>
+  <!-- <label for=title>标题</label> -->
+  <!-- <label for=message>说点啥</label> -->
+  <!-- <input type=textarea rows="3" id=message placeholder=说点啥></input> -->
+  <!-- <textarea rows="3" cols="30" id=message placeholder=说点啥></textarea> -->
+  <br>
+
+  
+</body>
+</html>
