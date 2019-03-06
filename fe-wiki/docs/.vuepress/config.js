@@ -17,11 +17,11 @@ module.exports = {
   port: 2019,
   themeConfig: {
     displayAllHeaders: true,
-    repo: 'zhb333/readme-blog',
+    repo: 'fyzye/save-to-wiki/fe-wiki',
     repoLabel: '贡献代码',
-    editLinks: true,
-    editLinkText: '帮助我们改进页面内容',
-    lastUpdated: '上次更新',
+    // editLinks: true,
+    // editLinkText: '帮助我们改进页面内容',
+    // lastUpdated: '上次更新',
     nav: [
       { 
         text: '主页', 
