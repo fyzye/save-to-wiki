@@ -17,7 +17,7 @@
 ## 快速启动
 
 - 安装Chrome扩展
-  - 将根目录下的chrome-save-to-wiki.crx文件拖入Chrome即可安装
+  - 打开chrome://extensions/，将根目录下的chrome-save-to-wiki.crx文件拖入扩展程序的面板即可安装
 - 启动node脚本
 - 启动静态博客系统
 
