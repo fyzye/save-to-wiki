@@ -23,7 +23,11 @@ const execCommand = (command) => {
 }
 
 const getFileName=(curYear,weekOfYear)=>{
-  return `${curYear}年第${weekOfYear}周.md`
+  let week=weekOfYear
+  if(weekOfYear<10){
+    week=`0${weekOfYear}`
+  }
+  return `${curYear}年第${week}周.md`
 }
 
 const createFile = (fileName,form) => {
